@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Memory Blocks</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="infos">
+    <h2>Project 4.</h2>
+    <h1>Memory Blocks</h1>
+    <h3 class="status">-</h3>
+  </div>
+
+  <div class="blocks">
+    <div class="row">
+      <div class="block block1" onclick="game.userSendInput('1')"></div>
+      <div class="block block2" onclick="game.userSendInput('2')"></div>
+    </div>
+    <div class="row">
+      <div class="block block3" onclick="game.userSendInput('3')"></div>
+      <div class="block block4" onclick="game.userSendInput('4')"></div>
+    </div>
+    <div class="row">
+      <div class="inputStatus"></div>
+    </div>
+
+    <div class="startBtn">
+      <button onclick="game.startLevel();this.style.display = 'none'">start</button>
+    </div>
+  </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>

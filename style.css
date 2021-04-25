@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500;1,700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #232526;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  border: 5px solid rgba(255, 255, 255, 0.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body:active {
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.infos {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.infos h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-weight: 500;
+  color: #FF5353;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blocks {
+  color: #ffffff;
+}
+
+.blocks .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 12px;
+  border: 1px solid #ffffff;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.blocks .block.block1 {
+  -webkit-box-shadow: 0 0 35px rgba(255, 83, 83, 0.2);
+          box-shadow: 0 0 35px rgba(255, 83, 83, 0.2);
+  border: 1px solid #ff6d6d;
+  background-color: transparent;
+}
+
+.blocks .block.block1:hover {
+  background-color: rgba(255, 83, 83, 0.3);
+  -webkit-box-shadow: 0 0 35px rgba(255, 83, 83, 0.3);
+          box-shadow: 0 0 35px rgba(255, 83, 83, 0.3);
+}
+
+.blocks .block.block1:active, .blocks .block.block1.active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  color: #000000;
+  background-color: #FF5353;
+  -webkit-box-shadow: 0 0 35px #FF5353;
+          box-shadow: 0 0 35px #FF5353;
+}
+
+.blocks .block.block2 {
+  -webkit-box-shadow: 0 0 35px rgba(255, 196, 40, 0.2);
+          box-shadow: 0 0 35px rgba(255, 196, 40, 0.2);
+  border: 1px solid #ffcb42;
+  background-color: transparent;
+}
+
+.blocks .block.block2:hover {
+  background-color: rgba(255, 196, 40, 0.3);
+  -webkit-box-shadow: 0 0 35px rgba(255, 196, 40, 0.3);
+          box-shadow: 0 0 35px rgba(255, 196, 40, 0.3);
+}
+
+.blocks .block.block2:active, .blocks .block.block2.active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  color: #000000;
+  background-color: #FFC428;
+  -webkit-box-shadow: 0 0 35px #FFC428;
+          box-shadow: 0 0 35px #FFC428;
+}
+
+.blocks .block.block3 {
+  -webkit-box-shadow: 0 0 35px rgba(89, 128, 193, 0.2);
+          box-shadow: 0 0 35px rgba(89, 128, 193, 0.2);
+  border: 1px solid #6c8ec8;
+  background-color: transparent;
+}
+
+.blocks .block.block3:hover {
+  background-color: rgba(89, 128, 193, 0.3);
+  -webkit-box-shadow: 0 0 35px rgba(89, 128, 193, 0.3);
+          box-shadow: 0 0 35px rgba(89, 128, 193, 0.3);
+}
+
+.blocks .block.block3:active, .blocks .block.block3.active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  color: #000000;
+  background-color: #5980C1;
+  -webkit-box-shadow: 0 0 35px #5980C1;
+          box-shadow: 0 0 35px #5980C1;
+}
+
+.blocks .block.block4 {
+  -webkit-box-shadow: 0 0 35px rgba(251, 233, 183, 0.2);
+          box-shadow: 0 0 35px rgba(251, 233, 183, 0.2);
+  border: 1px solid #fcf0cf;
+  background-color: transparent;
+}
+
+.blocks .block.block4:hover {
+  background-color: rgba(251, 233, 183, 0.3);
+  -webkit-box-shadow: 0 0 35px rgba(251, 233, 183, 0.3);
+          box-shadow: 0 0 35px rgba(251, 233, 183, 0.3);
+}
+
+.blocks .block.block4:active, .blocks .block.block4.active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  color: #000000;
+  background-color: #FBE9B7;
+  -webkit-box-shadow: 0 0 35px #FBE9B7;
+          box-shadow: 0 0 35px #FBE9B7;
+}
+
+.blocks .inputStatus {
+  margin-top: 10px;
+}
+
+.blocks .inputStatus.correct .circle {
+  background-color: #5980C1;
+}
+
+.blocks .inputStatus.wrong .circle {
+  background-color: #FF5353;
+}
+
+.blocks .inputStatus .circle {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.3;
+}
+
+.blocks .inputStatus .circle.correct {
+  opacity: 1;
+}
+
+.blocks .startBtn {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
